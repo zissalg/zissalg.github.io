@@ -761,9 +761,9 @@ font-size: 14px;
 }
 
 .resume-list li span {
-    margin: 12px 0 7px 0;
+    margin: 12px 0 7px 4px;
     display: block;
-    color: #b9b9b9;
+    color: #a8a8a8;
     font-size: 14px;
 }
 
