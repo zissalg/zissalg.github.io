@@ -750,7 +750,33 @@ font-size: 14px;
 
 
 /*------------------------ 4 Resume ------------------------*/	
+ol {
+  counter-reset:item; 
+  margin:0; 
+  padding-left:0; 
+}
 
+ ol>li{
+  counter-increment:item; 
+  list-style:none inside;
+  overflow: hidden;
+  margin-top: 2px;
+  line-height: 1.3;
+}
+ ol>li:before{
+  content:counter(item) ;
+  margin-right: 12px;
+  display: block;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  background: black;
+  color: #fff;
+  width: 22px;
+  padding: 2px;
+  text-align: center;
+  float: left;
+}
 
 .resume-list li h3 {
     font-size: 15px;

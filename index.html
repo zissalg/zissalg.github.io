@@ -82,17 +82,26 @@
                     <div class="floor about">
                     	<h2 class="page-title">About Me</h2>
                         <!-- <p class="top15"> Fusce elementum, erat quis volutpat porta, neque erat venenatis massa, ut tincidunt eros est nec diam. </p> -->
-                        <ul class="list top15 bottom30">
-                        	<li><span>Date of birth :</span> April 14, 1999</li>
-                            <li><span>Address :</span> 228, Phung Hung, Ward 14, District 5</li>
-                            <li><span>Email :</span> thai.cuong1404@gmail.com</li>
-                            <li><span>Phone :</span> +84 399 363 292</li>
-                            <li><span>Skype :</span> thai.cuong1404</li>                            
+                        <ul class="resume-ordered-list top15 bottom30">
+                        	<li class="resume-ordered-list-item"><span>Date of birth :</span> April 14, 1999</li>
+                            <li class="resume-ordered-list-item"><span>Address :</span> 228, Phung Hung, Ward 14, District 5</li>
+                            <li class="resume-ordered-list-item"><span>Email :</span> thai.cuong1404@gmail.com</li>
+                            <li class="resume-ordered-list-item"><span>Phone :</span> +84 399 363 292</li>
+                            <li class="resume-ordered-list-item"><span>Skype :</span> thai.cuong1404</li>                            
                         </ul>
                         <a href="#contact" class="recoba-btn2">HIRE ME</a>
                         <a href="./CV.pdf" class="recoba-btn" download>DOWNLOAD RESUME</a>
-                        <!-- Skills -->
-                        <h3 class="subtitle top60">My Skills</h3>
+                        <h3 class="subtitle top30">My Skills</h3>
+                        <ol class="list top30">
+                            <li><span>Critical Thinking</span></li>
+                            <li><span>Problem Solving</span></li>
+                            <li><span>Creativity</span></li>
+                            <li><span>Team Working</span></li>
+                            <li><span>Presentation</span></li>
+                            <li><span>Active Learning</span></li>
+                        </ol>
+                        <!-- Language -->
+                        <h3 class="subtitle top30">My Programming Languages</h3>
                         <ul class="resume-list top30">
                             <li>
                                 <h3> <i class="fa fa-database"></i>  SQL</h3>
@@ -132,19 +141,19 @@
                     <div class="floor resume">
                     	<h2 class="page-title">Resume</h2>
                         <p class="top15"></p>
+                        <!-- Experience -->
+                        <h3 class="subtitle top30 bottom30">Experiences</h3>
+                        <ul class="resume-list">
+                            
+                        </ul>
                         <!-- EDUCATION -->
-                        <h3 class="subtitle top60 bottom30">Education</h3>
+                        <h3 class="subtitle top60 bottom30">Educations</h3>
                         <ul class="resume-list">
                         	<li>
                                 <h3>University of Science</h3>
                                 <span> Major: Information System</span>
                                 <span> 2017 - 2021 </span>
                             </li>
-                        </ul>
-                        <!-- Experience -->
-                        <h3 class="subtitle top30 bottom30">Programming Languages & Other experiences</h3>
-                        <ul class="resume-list">
-                            
                         </ul>
                     </div>
                     </div>
@@ -251,14 +260,14 @@
                         </div>
                         <!--Contact Form-->
                         <div class="row">
-                            <form class="col-md-12 contact-form" method="POST" action="mail.php">
+                            <form class="col-md-12 contact-form" method="POST" action="http://formspree.io/thai.cuong1404@gmail.com">
                                 <h3 class="subtitle top45 bottom30">Get In Touch</h3>
                                 <!--Name-->
-                                <input id="con_name" name="con_name" class="form-inp requie" type="text" placeholder="Name">
+                                <input id="con_name" name="name" class="form-inp requie" type="text" placeholder="Name">
                                 <!--Email-->
-                                <input id="con_email" name="con_email" class="form-inp requie" type="text" placeholder="Email">
+                                <input id="con_email" name="_replyto" class="form-inp requie" type="text" placeholder="Email">
                                 <!--Message-->
-                                <textarea name="con_message" id="con_message" class="requie" placeholder="Message" rows="8"></textarea>
+                                <textarea id="con_message" name="message" class="requie" placeholder="Message" rows="8"></textarea>
                                 <input id="con_submit" class="but-big" type="submit" value="SEND A MESSAGE">
                             </form>
                         </div>
